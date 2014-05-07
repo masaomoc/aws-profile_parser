@@ -30,15 +30,13 @@ Or install it yourself as:
 
 You have to set ENV['AWS_CONFIG_FILE'] beofre using this gem.
 
-```bash
-$ export AWS_CONFIG_FILE=/path/to/your/config
-```
+    $ export AWS_CONFIG_FILE=/path/to/your/config
 
 And write simple code as below.
 
 ```ruby
 
-require 'aws-profileparser'
+require 'aws-profile_parser'
 require 'aws-sdk'
 
 ARGV.options do |opt|

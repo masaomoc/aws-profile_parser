@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Masao Mochizuki"]
   spec.email         = ["masaomoc.0301988@gmail.com"]
   spec.summary       = %q{Parse AWS CLI $AWS_CONFIG_FILE setting in Ruby}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.description   = %q{Parse AWS CLI $AWS_CONFIG_FILE setting in Ruby}
   spec.homepage      = "https://github.com/masaomoc/aws-profile_parser/"
   spec.license       = "MIT"
 
