@@ -1,0 +1,9 @@
+[default]
+aws_access_key_id = AKIAXXXXXXXXXXXXX
+aws_secret_access_key = yyyyyyyyyyyyyyy
+region = us-east-1
+
+[profile foobar]
+aws_access_key_id = AKIAYYYYYYYYYYYYYY
+aws_secret_access_key = 23563423hhhhhh
+region = ap-northeast-1
