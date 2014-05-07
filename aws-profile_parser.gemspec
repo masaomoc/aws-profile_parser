@@ -5,7 +5,7 @@ require 'aws/profile_parser/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "aws-profile_parser"
-  spec.version       = Aws::ProfileParser::VERSION
+  spec.version       = AWS::ProfileParser::VERSION
   spec.authors       = ["Masao Mochizuki"]
   spec.email         = ["masaomoc.0301988@gmail.com"]
   spec.summary       = %q{Parse AWS CLI $AWS_CONFIG_FILE setting in Ruby}

@@ -1,5 +1,5 @@
-module Aws
-  module ProfileParser
+module AWS
+  class ProfileParser
     VERSION = "0.0.1"
   end
 end
