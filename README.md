@@ -28,7 +28,8 @@ And write simple code as below.
 
 ```ruby
 
-require 'aws-profile_parser'
+require 'aws/profile_parser'
+require 'optparse'
 require 'aws-sdk'
 
 ARGV.options do |opt|
