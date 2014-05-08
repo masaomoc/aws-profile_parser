@@ -44,7 +44,7 @@ ARGV.options do |opt|
   opt.on('--profile PROFILE') { |v| profile = v}
   opt.parse!
 
-  parser = ProfileParser.new
+  parser = AWS::ProfileParser.new
   options = parser.get(profile)
 
   AWS.config(options)
