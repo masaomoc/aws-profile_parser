@@ -1,16 +1,6 @@
 # Aws::ProfileParser
 
-Add this line to your application's Gemfile:
-
-    gem 'aws-profileparser'
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install aws-profileparser
+This gem enables you to use AWS_CONFIG_FILE used by AWS CLI in Python.
 
 ## Installation
 
@@ -31,6 +21,8 @@ Or install it yourself as:
 You have to set ENV['AWS_CONFIG_FILE'] beofre using this gem.
 
     $ export AWS_CONFIG_FILE=/path/to/your/config
+
+For more information about AWS_CONFIG_FILE, see [official documentation](http://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html) by AWS.
 
 And write simple code as below.
 
