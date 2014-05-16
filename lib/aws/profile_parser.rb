@@ -26,6 +26,7 @@ module AWS
       while !s.eos?
         case
         when s.scan(/\s+/)
+        when s.scan(/^#.*/)
           # do nothing
         when s.scan(/\[(profile\s+)?(.+?)\]/)
           # strip 'profile' from each profile key and set to section key
