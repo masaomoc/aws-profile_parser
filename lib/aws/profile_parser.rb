@@ -4,7 +4,7 @@ module AWS
   class ProfileParser
 
     def initialize
-      @file = ENV['AWS_CONFIG_FILE']
+      @file = ENV['AWS_CONFIG_FILE'] || ENV['HOME'] + "/.aws/config"
       @credentials = nil
     end
 
@@ -19,7 +19,7 @@ module AWS
     end
 
     def parse
-      section = { "" => {} }
+      section = {}
       current = {}
       s = StringScanner.new(File.read(@file))
 
